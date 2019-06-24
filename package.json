@@ -1,0 +1,23 @@
+{
+  "name": "nodeauthapi",
+  "version": "1.0.0",
+  "description": "JWT example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "serve": "nodemon app",
+    "debug": "nodedev app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.2",
+    "handlebars": "^4.1.2",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
